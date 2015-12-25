@@ -1,0 +1,22 @@
+{
+  "name": "SpaceThing",
+  "version": "0.0.0",
+  "description": "This is a thing in space. The purpose of this project is to practice some javascript.",
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HyrulianHero/SpaceThing.git"
+  },
+  "keywords": [
+    "Space",
+    "Ship"
+  ],
+  "author": "HyrulianHero",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/HyrulianHero/SpaceThing/issues"
+  },
+  "dependencies": {
+    "wetfish-basic": "~0.7.7"
+  }
+}
