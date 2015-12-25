@@ -1,0 +1,8 @@
+body {
+    background-color:black;
+}
+
+.spaceship {
+    width:05%;
+    transform: rotate(45deg);
+}
