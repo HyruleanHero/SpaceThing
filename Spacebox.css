@@ -3,6 +3,7 @@ body {
 }
 
 .spaceship {
-    width:05%;
+    width: 5%;
     transform: rotate(45deg);
+    border:1px solid red;
 }
