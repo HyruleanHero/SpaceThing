@@ -5,5 +5,7 @@ body {
 .spaceship {
     width: 5%;
     transform: rotate(45deg);
-    border:1px solid red;
+}
+
+.spaceship-wrap  {	
 }

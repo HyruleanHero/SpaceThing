@@ -7,19 +7,23 @@ var ship =
 {
     speed:0, direction:0, x:0, y:0
 }
+function radians(angle)
+{
+	return angle * (Math.PI / 180);
+}
 
 function animate()
 {
     $('.spaceship').transform("rotate",ship.direction + "deg");
     var position = 
 	{
-	    x : Math.cos(ship.direction) * ship.speed,
-	    y : Math.sin(ship.direction) * ship.speed,
+	    x : Math.sin(radians(ship.direction)) * ship.speed,
+	    y : Math.cos(radians(ship.direction)) * ship.speed,
 	}
 
     ship.x += position.x;
-    ship.y += position.y;
-    $('.spaceship').transform("translate", ship.x + "px" , ship.y + "px" );
+    ship.y -= position.y;
+    $('.spaceship-wrap').transform("translate", ship.x + "px" , ship.y + "px" );
 }
 
 $(document).ready(function()
