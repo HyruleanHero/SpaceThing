@@ -33,7 +33,6 @@ $(document).ready(function()
 
     $("body").on("keydown", function(event)
 	{
-	    console.log("TRIGGERED",event.which);
 	    //rotate the ship counter-clockwise
 	    if (event.which == keymap.a)
 	    {
